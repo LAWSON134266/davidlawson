@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    margin: 0px;
+}
+/* Nav styles*/
+.nav-wrappers{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.lefty{
+display: flex;
+}
+
+.nav-wrappers > .lefty > div {
+margin-right: 20px;
+font-size: 0.9em;
+text-transform: uppercase;
+}
+
+.nav-link-wrappers{
+height: 22px;
+border-bottom: 1px solid transparent;
+transition: border-bottom 0.5s;
+}
+
+.main{
+    position:absolute;
+    justify-content: center;
+    margin-top: 10px; 
+    width: 100vw;   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0px;
+    row-gap: 0px;
+}
+
+img{
+    width: 510px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
